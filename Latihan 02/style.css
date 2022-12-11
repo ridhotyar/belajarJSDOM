@@ -1,0 +1,38 @@
+* {
+    line-height: 0;
+}
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    border: 5px solid white;
+}
+
+.preview img {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.thumb {
+    max-width: 200px;
+    height: 200px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.thumb:hover {
+    opacity: .5;
+    cursor: pointer;
+}
